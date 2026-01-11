@@ -1,0 +1,27 @@
+minecraft-raylib/
+├─ README.md
+├─ .gitignore
+├─ build/
+├─ assets/
+│   └─ textures/
+├─ src/
+│   ├─ main.c
+│   ├─ core/
+│   │   ├─ camera.c
+│   │   ├─ camera.h
+│   │   ├─ input.c
+│   │   └─ input.h
+│   ├─ world/
+│   │   ├─ block.h
+│   │   ├─ chunk.c
+│   │   ├─ chunk.h
+│   │   ├─ world.c
+│   │   └─ world.h
+│   ├─ render/
+│   │   ├─ renderer.c
+│   │   └─ renderer.h
+│   └─ utils/
+│       ├─ math3d.h
+│       └─ noise.c
+├─ Makefile
+└─ LICENSE
